@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتدى قعطبة الثقافي</title>
+    <style>
+        /* تصميم عام */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            text-align: center;
+            direction: rtl; /* دعم اللغة العربية */
+        }
+
+        /* شريط العنوان */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* شريط التنقل */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #388E3C;
+            padding: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            margin: 10px;
+            padding: 12px 20px;
+            background: white;
+            color: #388E3C;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            background: #FFEB3B;
+            color: #333;
+        }
+
+        /* الأقسام */
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #388E3C;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* قائمة المنتدى */
+        .forum-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .forum-list li {
+            list-style: none;
+            background: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .forum-list li:hover {
+            background: #FFEB3B;
+            color: #333;
+        }
+
+        /* الفوتر */
+        footer {
+            background: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+
+        /* تصميم متجاوب */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>منتدى قعطبة الثقافي</header>
+
+    <nav>
+        <a href="#">الرئيسية</a>
+        <a href="#">عن المنتدى</a>
+        <a href="#">الفعاليات</a>
+        <a href="#">اتصل بنا</a>
+    </nav>
+
+    <div class="container">
+        <h2>عن المنتدى</h2>
+        <p>منتدى قطبة الثقافي هو منصة ثقافية تهدف إلى نشر المعرفة والثقافة في المجتمع. تم تأسيسه عام <strong>2025</strong>، ويقدم فعاليات وأنشطة متنوعة تشمل الأدب، الفن، والتاريخ.</p>
+    </div>
+
+    <div class="container">
+        <h2>أقسام المنتدى</h2>
+        <ul class="forum-list">
+            <li>📚 الأدب والشعر</li>
+            <li>🎨 الفنون التشكيلية</li>
+            <li>📜 التاريخ والتراث</li>
+            <li>🎭 المسرح والدراما</li>
+            <li>🎼 الموسيقى والغناء</li>
+        </ul>
+    </div>
+
+    <footer>جميع الحقوق محفوظة © 2025 | منتدى قطبة الثقافي</footer>
+
+</body>
+</html>
